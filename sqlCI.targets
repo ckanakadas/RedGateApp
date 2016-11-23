@@ -18,7 +18,7 @@
     <!-- Target database name -->
     <!-- Optional. Requires DatabaseServer if set -->
     <!-- The target database to keep up to date with the changes in source control. This must be an existing database on the server; the runner does not create the database for you. -->
-    <databaseName>testbamboo</databaseName>
+    <databaseName>RedGateAppCI</databaseName>
 
     <!-- Windows authentication -->
     <!-- Optional -->
@@ -106,7 +106,7 @@ If you are using this through the command line, enter a number here to set the b
     <!-- tSQLt tests -->
     <!-- Optional -->
     <!-- To run tSQLt tests in source control for the database, enter true. -->
-    <enableTsqlt></enableTsqlt>
+    <enableTsqlt>true</enableTsqlt>
 
     <!-- Generate database documentation -->
     <!-- Optional -->
